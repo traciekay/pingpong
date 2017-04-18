@@ -1,0 +1,30 @@
+h1{
+  text-align: center;
+  margin: auto;
+  font-family: sans-serif;
+
+}
+.header{
+  color: white;
+  background-color: #8abcd1;
+  height: 150px;
+}
+p{
+  font-family: sans-serif;
+}
+h2{
+  color: #8abcd1;
+  font-family: sans-serif;
+}
+#changeColor{
+  font-weight: bold;
+}
+.form-group{
+  font-family: sans-serif;
+}
+.output{
+  background-color: #c9c9c9;
+}
+.number{
+  background-color: #c9c9c9;
+}

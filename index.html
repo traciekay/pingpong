@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+      <html>
+        <head>
+          <title>Ping Pong</title>
+          <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+          <link href="css/styles.css" rel="stylesheet" type="text/css">
+        </head>
+        <body>
+          <div class="container">
+            <div class="row header">
+              <div class="col-md-12">
+                <h1>Ping-Pong</h1>
+
+              </div>
+
+            </div>
+            <div class="row number">
+              <div class="col-md-4">
+                <h2>About Ping Pong</h2>
+                <p><span id="changeColor">Created by: </span><br> Tracie Kay <br><span id="changeColor">GitHub Username/URL:</span><br>traciekay <br><span id="changeColor">Level 2 Test for:</span> <br>Java</p>
+
+              </div>
+              <div class="col-md-8 number">
+                <h2>Let's play!</h2>
+                <p>Rules:</p>
+                <p>Ping Pong will count upto your number from 1 with the following exceptions:</p>
+                <ol>
+                  <li>Numbers divisible by 3 become 'ping'</li>
+                  <li>Numbers divisible by 5 become 'pong'</li>
+                  <li>Numbers divisible by 3 and 5 become 'pingpong'</li>
+                </ol>
+                <form id="ping-form">
+                  <div class="form-group">
+                    <label for="pingpong">Enter your number here:</label>
+                    <input id="pingpong" class="form-control" type="text">
+                  </div>
+                  <button type="submit" class="btn">Ping Pong!</button>
+                </form>
+                <!-- the div displaying results -->
+                <div id="results">
+                  <ul id="output"></ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <script src="js/jquery-3.2.0.min.js"></script>
+          <script src="js/scripts.js"></script>
+        </body>
+      </html>
